@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000;
+  font-size: 1.2em;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+}
+section {
+  padding: 5vh 6%;
+}
+a:link {
+  text-decoration: none;
+  display: inline-block;
+}
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+}
+p {
+  margin: 0;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button:hover {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button:focus {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input {
+  border: none;
+}
+.tab {
+  display: none;
+}
+.pc {
+  display: none;
+}
+#header{display: flex;height: 4.8rem;padding:5% 5% 0;}
+#header h1{width:4rem;height:4rem;margin: 0; }
+#header h1 img{width: 100%;height: auto;}
+
+  .burger-btn {
+    display: block;
+    height: 4rem;
+    position: relative;
+    width: 4rem;
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+      left: calc(100% - (5% + 4rem));
+  }
+  
+  .bar {
+    background-color: #fff;
+    display: block;
+    height: 1px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 3rem;
+  }
+  .bar_top {
+    top: 10px;
+  }
+  .bar_mid {
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .bar_bottom {
+    bottom: 10px;
+  }
+  .burger-btn.close .bar_top {
+    transform: translate(-50%,10px) rotate(45deg);
+    transition: transform .3s;
+  }
+  .burger-btn.close .bar_mid {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  .burger-btn.close .bar_bottom {
+    transform: translate(-50%,-8px) rotate(-45deg);
+    transition: transform .3s;
+  }
+  /* スクロール制御 */
+  .noscroll{
+    overflow: hidden;
+  }
+  
+  /* 以下、ハンバーガーメニュー */
+  .nav-wrapper {
+    visibility: hidden;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    width: 50vw;
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 2;
+    right: 0;
+  }
+  
+  .header-nav {
+    background-color: #1b1310;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  .nav-list {
+    display: block;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .nav-item {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+  
+  /* メニューオープン時 */
+  .nav-wrapper.fade {
+    opacity: 1;
+    visibility: visible;
+  }
+/*タブレット*/
+@media screen and (min-width: 600px) {
+  .sp {
+    display: none;
+  }
+  .tab {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  html {
+   
+  }
+  body {
+   
+  }
+}
+/*PC*/
+@media screen and (min-width: 1025px) {
+  .sp {
+    display: none;
+  }
+  .tab {
+    display: block;
+  }
+  .pc {
+    display: block;
+  }
+  html {
+  }
+  boby{}
+
+    }
