@@ -15,7 +15,7 @@ body {
  background-blend-mode: multiply,multiply;
 }
 section {
-  
+  padding: 5vh 0;
 }
 a:link {
   text-decoration: none;
@@ -120,10 +120,10 @@ input {
   /* 以下、ハンバーガーメニュー */
   .nav-wrapper {
     visibility: hidden;
-    height: 50vh;
+    height: 30vh;
     position: fixed;
     top: 0;
-    width: 50vw;
+    width: 40vw;
     opacity: 0;
     transition: opacity .5s;
     z-index: 2;
@@ -131,7 +131,6 @@ input {
   }
   
   .header-nav {
-    background-color: #1b1310;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -145,8 +144,12 @@ input {
     transform: translate(-50%,-50%);
   }
   .nav-item {
-    margin-bottom: 40px;
-    margin-right: 0;
+        line-height: 4;
+  }
+  .nav-item a{
+        font-size: 2rem;
+    color: #fff;
+    letter-spacing: 3px;
   }
   
   /* メニューオープン時 */
@@ -157,8 +160,8 @@ input {
 #main{}
 #main #top{}
 #main #top .top-container{position: relative;}
-#main #top .top-container .top-bg{  width:40vh;/*横幅*/
-  height: 40vh;/*縦幅*/
+#main #top .top-container .top-bg{  width:35vh;
+  height: 35vh;
     background-color: #f09819;
   animation: Topbgchangecolor 20s linear infinite;
   animation: Topbgrotate 30s ease 0s infinite;/*アニメーションの設定*/}
@@ -195,8 +198,12 @@ input {
 }
     
 }
-#main #top .top-container h2{position: absolute;top:50%;
-  left:50%;}
+#main #top .top-container h2{    position: absolute;
+    top: 50%;
+    margin: 0;
+    width: 70vw;
+    height: auto;
+    left: 10%;}
 
 /*タブレット*/
 @media screen and (min-width: 600px) {
