@@ -9,7 +9,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
@@ -40,6 +40,41 @@
 </h2>
 </div>
     </section>
+        <section id="work">
+    <nav class="work_list">
+        <li><a href="#web">WEB</a></li>
+        <li><a href="#dtp">DTP</a></li>
+        </nav>
+        <h3 id="web">WEB</h3>
+        <nav class="web_list_nav">
+        <ul class="web_list_ul">
+            <li class="web_list_li scr">
+                <a href=""><source srcset="https://hanamogealien.github.io/tnk-aaa-portfolio/img/beautycontest_24th_sp_title.png" media="(max-width:599px)">
+  <img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/beautycontest_24th_title.png" alt="">
+                </a></li>
+                        <li class="web_list_li scr">
+                <a href=""><source srcset="https://hanamogealien.github.io/tnk-aaa-portfolio/img/copysite_sp_title.png" media="(max-width:599px)">
+  <img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/copysite_title.png" alt="">
+                </a></li>
+                        <li class="web_list_li scr sp">
+                <a href=""><img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/line1_titile.png" alt="">
+                </a></li>
+                        <li class="web_list_li scr tab pc">
+                <a href=""> <img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/beforeafter_title.png" alt="">
+                </a></li>
+            
+            </ul>
+        </nav>
+        <h3 id="DTP">DTP</h3>
+        <nav class="dtp_list_nav">
+            <ul class="dtp_list_ul">
+        <li class="dtp_list_li"><a href=""><img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/bc2021.png" alt=""></a></li>
+        <li class="dtp_list_li"><a href=""><img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/TOFAキャンペーン.png" alt=""></a></li>
+        <li class="dtp_list_li"><a href=""><img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/【東京・大阪】母の日キャンペーン2022POP.png" alt=""></a></li>
+        <li class="dtp_list_li"><a href=""><img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/2021Xmasくじ.png" alt=""></a></li>
+                </ul>
+        </nav>
+    </section>
 </main>
 <footer>
 </footer>
@@ -52,6 +87,53 @@ $('.burger-btn').on('click',function(){//.btn_triggerをクリックすると
   $('.nav-wrapper').toggleClass('fade');//.nav-wrapperに
   $('body').toggleClass('noscroll');//bodyにnoscrollクラスを付与(スクロールを固定)
  });
+    </script>
+        <script>
+    window.addEventListener("load", function() {
+const target = document.querySelectorAll('.scr')
+const targetArray = Array.prototype.slice.call(target);
+const options = {
+    root: null,
+    rootMargin: '0px 0px',
+    threshold: 0.2
+};
+
+const observer = new IntersectionObserver(callback, options)
+targetArray.forEach(function (tgt) {
+  observer.observe(tgt)
+});
+
+function callback(entries) {
+  entries.forEach(function(entry, i) {
+    const target = entry.target;
+    if (entry.isIntersecting && !target.classList.contains('is-active')) {
+      const delay = i * 100
+      setTimeout(function(){
+        target.classList.add('is-active');
+      },delay);
+    }
+  });
+};
+});
+    </script>
+        <script>
+    $(function () {
+  $(".dtp_list_ul").slick({
+    arrows: false,
+    autoplay: true,
+    adaptiveHeight: true,
+    dots: true,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 600, 
+        settings: {
+        slidesToShow: 1,
+        },
+      },
+    ],
+  });
+});
     </script>
 </body>
 </html>
