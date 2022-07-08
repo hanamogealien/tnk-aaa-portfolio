@@ -160,9 +160,9 @@ input {
 #main #top .top-container .top-bg{  width:40vh;/*横幅*/
   height: 40vh;/*縦幅*/
     background-color: #f09819;
-  animation: topbg-change-color 20s linear infinite;
-  animation: topbgrotate 30s ease 0s infinite;/*アニメーションの設定*/}
-@keyframes topbg-change-color {
+  animation: Topbgchangecolor 20s linear infinite;
+  animation: Topbgrotate 30s ease 0s infinite;/*アニメーションの設定*/}
+@keyframes Topbgchangecolor {
   0%,100%{
     background-color: #f09819;
   }
@@ -170,7 +170,7 @@ input {
     background-color: #ff5858;
   }
 }
-@keyframes topbgrotate {  
+@keyframes Topbgrotate {  
     
 0%, 100% {
     border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
