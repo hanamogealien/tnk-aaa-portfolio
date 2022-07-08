@@ -207,6 +207,7 @@ margin: 0 auto;
     height: auto;
     left: 15vw;}
 #main #work{}
+#main #work h2{}
 #main #work .work_list{}
 #main #work .work_list li{}
 #main #work .work_list li a{}
