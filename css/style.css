@@ -206,7 +206,22 @@ margin: 0 auto;
     width: 70vw;
     height: auto;
     left: 15vw;}
-
+#main #work{}
+#main #work .work_list{}
+#main #work .work_list li{}
+#main #work .work_list li a{}
+#main #work h3{}
+#main #work .web_list_nav{}
+#main #work .web_list_nav .web_list_ul{}
+#main #work .web_list_nav .web_list_ul .web_list_li{}
+#main #work .web_list_nav .web_list_ul .web_list_li a{}
+#main #work .web_list_nav .web_list_ul .web_list_li a img{}
+.scr
+#main #work .dtp_list_nav{}
+#main #work .dtp_list_nav .dtp_list_ul{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{}
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
