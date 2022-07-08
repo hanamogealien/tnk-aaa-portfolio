@@ -27,6 +27,8 @@ ul, li {
   padding: 0;
 }
 img {
+    width: 100%;
+    height: auto;
   border: 0;
 }
 p {
@@ -77,8 +79,9 @@ input {
     z-index: 3;
     background-color: transparent;
     border: none;
-    left: calc(100% - (5% + 4rem));
+      left: calc(100% - (5% + 4rem));
   }
+  
   .bar {
     background-color: #fff;
     display: block;
@@ -117,7 +120,7 @@ input {
   /* 以下、ハンバーガーメニュー */
   .nav-wrapper {
     visibility: hidden;
-    height: 30vh;
+    height: 50vh;
     position: fixed;
     top: 0;
     width: 50vw;
@@ -128,6 +131,7 @@ input {
   }
   
   .header-nav {
+    background-color: #1b1310;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -141,11 +145,8 @@ input {
     transform: translate(-50%,-50%);
   }
   .nav-item {
-    line-height: 4;
-  }
-  .nav-item a{
-        color: #fff;
-    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-right: 0;
   }
   
   /* メニューオープン時 */
@@ -153,6 +154,50 @@ input {
     opacity: 1;
     visibility: visible;
   }
+#main{}
+#main #top{}
+#main #top .top-container{position: relative;}
+#main #top .top-container .top-bg{  width:40vh;/*横幅*/
+  height: 40vh;/*縦幅*/
+    background-color: #f09819;
+  animation: topbg-change-color 20s linear infinite;
+  animation: topbgrotate 30s ease 0s infinite;/*アニメーションの設定*/}
+@keyframes topbg-change-color {
+  0%,100%{
+    background-color: #f09819;
+  }
+  50%{
+    background-color: #ff5858;
+  }
+}
+@keyframes topbgrotate {  
+    
+0%, 100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+}
+14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+}
+28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+}
+42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+}
+56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+}
+70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+}
+84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+}
+    
+}
+#main #top .top-container h2{position: absolute;top:50%;
+  left:50%;}
+
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
