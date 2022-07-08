@@ -164,7 +164,9 @@ input {
   height: 35vh;
     background-color: #f09819;
   animation: Topbgchangecolor 20s linear infinite;
-  animation: Topbgrotate 30s ease 0s infinite;/*アニメーションの設定*/}
+  animation: Topbgrotate 30s ease 0s infinite;
+margin: 0 auto;
+}
 @keyframes Topbgchangecolor {
   0%,100%{
     background-color: #f09819;
@@ -203,7 +205,7 @@ input {
     margin: 0;
     width: 70vw;
     height: auto;
-    left: 10%;}
+    left: 15vw;}
 
 /*タブレット*/
 @media screen and (min-width: 600px) {
