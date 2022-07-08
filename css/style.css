@@ -236,6 +236,7 @@ margin: 0 auto;
   transform: translateX(-50%);/*位置調整*/
   background-color:#fff;/*線の色*/
 }
+#main #work .work_list li a:hover{}
 #main #work h3{}
 #main #work .web_list_nav{}
 #main #work .web_list_nav .web_list_ul{}
