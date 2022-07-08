@@ -78,11 +78,7 @@ input {
     background-color: transparent;
     border: none;
     left: calc(100% - (5% + 4rem));
-    transition: all .6s;
   }
-.burger-btn.active{
-  transform: rotate(360deg);
-}
   .bar {
     background-color: #fff;
     display: block;
