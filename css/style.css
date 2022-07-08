@@ -31,6 +31,7 @@ img {
     height: auto;
   border: 0;
 }
+h2{ margin: 0;}
 p {
   margin: 0;
 }
@@ -207,10 +208,20 @@ margin: 0 auto;
     height: auto;
     left: 15vw;}
 #main #work{}
-#main #work h2{}
-#main #work .work_list{}
-#main #work .work_list li{}
-#main #work .work_list li a{}
+#main #work h2{    font-size: 2.4rem;
+    text-align: center;
+    color: #fff;
+  letter-spacing: 3px;
+}
+#main #work .work_list{display: flex;
+    width: 40vw;
+    margin: 0 auto;}
+#main #work .work_list li{width: 20vw;
+    text-align: center;}
+#main #work .work_list li a{color: #fff;
+    width: 100%;
+    font-size: 2rem;
+}
 #main #work h3{}
 #main #work .web_list_nav{}
 #main #work .web_list_nav .web_list_ul{}
