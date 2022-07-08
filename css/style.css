@@ -77,9 +77,12 @@ input {
     z-index: 3;
     background-color: transparent;
     border: none;
-      left: calc(100% - (5% + 4rem));
+    left: calc(100% - (5% + 4rem));
+    transition: all .6s;
   }
-  
+.burger-btn.active{
+  transform: rotate(360deg);
+}
   .bar {
     background-color: #fff;
     display: block;
@@ -118,7 +121,7 @@ input {
   /* 以下、ハンバーガーメニュー */
   .nav-wrapper {
     visibility: hidden;
-    height: 50vh;
+    height: 30vh;
     position: fixed;
     top: 0;
     width: 50vw;
@@ -129,7 +132,6 @@ input {
   }
   
   .header-nav {
-    background-color: #1b1310;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -143,8 +145,11 @@ input {
     transform: translate(-50%,-50%);
   }
   .nav-item {
-    margin-bottom: 40px;
-    margin-right: 0;
+    line-height: 4;
+  }
+  .nav-item a{
+        color: #fff;
+    font-size: 2rem;
   }
   
   /* メニューオープン時 */
