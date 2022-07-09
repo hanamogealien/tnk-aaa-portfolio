@@ -68,7 +68,11 @@ input {
 .pc {
   display: none;
 }
-#header{display: flex;height: 4.8rem;padding:5% 5% 0;}
+#header{    width: 100vw;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;}
 #header h1{width:4rem;height:4rem;margin: 0; }
 #header h1 img{width: 100%;height: auto;}
 
