@@ -73,7 +73,9 @@ input {
     position: fixed;
     left: 0;
   top: 0;
-      z-index: 100;
+       display: flex;
+    padding: 5% 5% 0;
+    z-index: 100;
 }
 #header h1{width:4rem;height:4rem;margin: 0; }
 #header h1 img{width: 100%;height: auto;}
