@@ -10,7 +10,6 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #000;
   font-size: 1.2em;
-    height: 100vh;
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
  background-blend-mode: multiply,multiply;
 }
@@ -247,13 +246,34 @@ margin: 0 auto;
 #main #work .work_list li a:hover::after {
     transform: scale(1, 1);
 }
-#main #work h3{}
-#main #work .web_list_nav{}
-#main #work .web_list_nav .web_list_ul{}
-#main #work .web_list_nav .web_list_ul .web_list_li{}
-#main #work .web_list_nav .web_list_ul .web_list_li a{}
-#main #work .web_list_nav .web_list_ul .web_list_li a img{}
-.scr
+#main #work h3{    font-size: 2rem;
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 50vw;
+    margin: 5vh 0;
+    text-align: center;
+    line-height: 2;
+    background: #bfb197;}
+#main #work .web_list_nav{padding: 0 5%;
+    width: 100vw;
+    box-sizing: border-box;}
+#main #work .web_list_nav .web_list_ul{
+display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+#main #work .web_list_nav .web_list_ul .web_list_li{
+    margin-bottom: 2.5vh;
+    width: 100%;
+}
+#main #work .web_list_nav .web_list_ul .web_list_li a{
+    width: 100%;
+display: inline-block;
+      height: 12rem;
+    border-radius: 6rem;
+}
+#main #work .web_list_nav .web_list_ul .web_list_li a img{object-fit: cover;}
+.scr{}
 #main #work .dtp_list_nav{}
 #main #work .dtp_list_nav .dtp_list_ul{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{}
