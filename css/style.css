@@ -391,6 +391,7 @@ margin-right: 5rem;
     margin: auto;
     text-align: left;
     color: #000;
+    border-bottom: none;
 }
   #main #about nav .career_ul .career_li:first-of-type{border-right: 1px solid;
     padding-right: 5vw;}
