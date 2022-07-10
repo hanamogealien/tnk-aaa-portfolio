@@ -293,7 +293,13 @@ padding: 0 2rem;
 }
 #main #work a p{font-size: 1.4rem;
     line-height: 1.5;}
-.scr{}
+.scr{ opacity: 0;
+    transform: translate3d(0, 30px, 0);}
+.scr .is-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 1s;
+}
 #main #work .dtp_list_nav{}
 #main #work .dtp_list_nav .dtp_list_ul{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{}
