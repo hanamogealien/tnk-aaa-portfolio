@@ -305,7 +305,26 @@ padding: 0 2rem;
 #main #work .dtp_list_nav{padding: 0 5%;}
 #main #work .dtp_list_nav .dtp_list_ul{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{height: 35rem;}
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{position: relative;
+  z-index: 1;
+  overflow: hidden;}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a::before {
+  background: inherit;
+  content: "";
+  display: block;
+  filter: blur(3px);
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  opacity: 0;
+}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a:hover{box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a:hover::before {
+  opacity: 1;
+}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{object-position: top;}
 #main #about{}
 #main #about h3{font-size: 2rem;
