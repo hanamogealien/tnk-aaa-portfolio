@@ -293,10 +293,9 @@ padding: 0 2rem;
 }
 #main #work a p{font-size: 1.4rem;
     line-height: 1.5;}
-.scr{ opacity: 0;
+.scr{opacity: 0;
     transform: translate3d(0, 30px, 0);}
-.scr .is-active{
-    opacity: 1;
+.scr .is-active{opacity: 1;
     transform: translate3d(0, 0, 0);
     transition: 1s;
 }
