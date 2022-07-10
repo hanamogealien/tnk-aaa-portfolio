@@ -343,6 +343,7 @@ padding: 0 2rem;
   body {
    
   }
+  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{margin-right: 1rem;}
 }
 /*PC*/
 @media screen and (min-width: 1025px) {
