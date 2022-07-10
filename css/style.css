@@ -280,7 +280,7 @@ display: inline-block;
 #main #work a img{object-fit: cover;
     width: 100%;
     height: 25rem;}
-#main #work .web_list_nav .web_list_ul .web_list_li a h4{    margin: 0;
+#main #work a h4{    margin: 0;
     font-size: 1.6rem;
     line-height: 2;}
 #main #work .web_list_nav .web_list_ul .web_list_li a h4 span{background: #fff;
