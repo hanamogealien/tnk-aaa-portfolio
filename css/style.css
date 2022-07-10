@@ -317,13 +317,16 @@ padding: 0 2rem;
     color: #fff;}
 #main #about nav{padding: 0 5%;
     text-align: center;}
-#main #about nav ul{padding: 0 5%;
-    text-align: center;}
-#main #about nav ul li{padding: 0 5%;
-    text-align: center;}
+#main #about nav ul{padding: 0 5%;}
+#main #about nav ul li{    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #fff;}
 #main #about nav .career_ul{}
-#main #about nav .career_li_img{border-bottom: none;}
-#main #about nav .career_li_img img{}
+#main #about nav .career_ul .career_li{    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;}
+#main #about nav .career_ul .career_li_img{border-bottom: none;padding-bottom:none;}
+#main #about nav .career_ul .career_li_img img{}
 #footer{padding: 5% 5% 0;}
 #footer p{text-align: center;color: #fff;font-size: 1.6rem;line-height: 4rem;}
 /*タブレット*/
