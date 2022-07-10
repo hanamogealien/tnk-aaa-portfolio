@@ -299,9 +299,9 @@ padding: 0 2rem;
     transform: translate3d(0, 0, 0);
     transition: 1s;
 }
-#main #work .dtp_list_nav{}
+#main #work .dtp_list_nav{padding: 0 5%;}
 #main #work .dtp_list_nav .dtp_list_ul{}
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{height: 35rem;}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{object-position: top;}
 /*タブレット*/
