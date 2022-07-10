@@ -159,7 +159,9 @@ input {
     color: #fff;
     letter-spacing: 3px;
   }
-  
+    .nav-item a:hover {
+  letter-spacing:;
+}
   /* メニューオープン時 */
   .nav-wrapper.fade {
     opacity: 1;
