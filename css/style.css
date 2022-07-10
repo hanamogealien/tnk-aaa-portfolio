@@ -255,9 +255,23 @@ margin: 0 auto;
     width: 50vw;
     margin: 5vh 0;
     text-align: right;
-    background: #bfb197;
+    background:linear-gradient(289deg, #bfb197, #40341f);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 44s ease infinite;
+    -moz-animation: AnimationName 44s ease infinite;
+    animation: AnimationName 44s ease infinite;
     padding: 2vh 3vw 0 0;
     font-weight: 300;}
+@-webkit-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
 #main #work .web_list_nav{padding: 0 5%;
     width: 100vw;
     box-sizing: border-box;}
