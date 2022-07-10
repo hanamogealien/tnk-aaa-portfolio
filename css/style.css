@@ -272,10 +272,17 @@ display: flex;
 #main #work .web_list_nav .web_list_ul .web_list_li a{
     width: 100%;
 display: inline-block;
+  color: #fff;
+    border-bottom: 1px solid;
 }
-#main #work .web_list_nav .web_list_ul .web_list_li a img{object-fit: cover;}
-#main #work .web_list_nav .web_list_ul .web_list_li a h4{}
-#main #work .web_list_nav .web_list_ul .web_list_li a p{}
+#main #work .web_list_nav .web_list_ul .web_list_li a img{object-fit: cover;
+    width: 100%;
+    height: 25rem;}
+#main #work .web_list_nav .web_list_ul .web_list_li a h4{    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2;}
+#main #work .web_list_nav .web_list_ul .web_list_li a p{font-size: 1.4rem;
+    line-height: 1.5;}
 .scr{}
 #main #work .dtp_list_nav{}
 #main #work .dtp_list_nav .dtp_list_ul{}
