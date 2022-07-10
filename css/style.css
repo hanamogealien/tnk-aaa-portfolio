@@ -281,6 +281,9 @@ display: inline-block;
 #main #work .web_list_nav .web_list_ul .web_list_li a h4{    margin: 0;
     font-size: 1.6rem;
     line-height: 2;}
+#main #work .web_list_nav .web_list_ul .web_list_li a h4 span{    background: #fff;
+    color: #000;
+    font-size: 1.2rem;}
 #main #work .web_list_nav .web_list_ul .web_list_li a p{font-size: 1.4rem;
     line-height: 1.5;}
 .scr{}
