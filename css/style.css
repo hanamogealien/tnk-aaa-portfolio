@@ -365,8 +365,10 @@ padding: 0 2rem;
   #main #top {
     height: 100vh;
 }
-  #main #work .work_list li a::after{left: 45%;
-    width: 2vw;}
+  #main #work .work_list{width: 500px;}
+  #main #work .work_list li{width: 250px;}
+  #main #work .work_list li a::after{    left: 110px;
+    width: 30px;}
   #main #work .web_list_nav .web_list_ul .web_list_li{
 width: 40vw;
       margin: 0 2.5vw 5vh;
