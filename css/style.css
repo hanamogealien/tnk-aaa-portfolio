@@ -160,7 +160,8 @@ input {
     letter-spacing: 3px;
   }
     .nav-item a:hover {
-  letter-spacing:;
+  letter-spacing:6px;
+	    color:#bfb197;
 }
   /* メニューオープン時 */
   .nav-wrapper.fade {
@@ -419,6 +420,7 @@ margin: 0 2.5vw;
     font-weight: 300;
     color: #000;
     border-bottom: 1px solid;
+		text-align: center;
 }
   
 }
