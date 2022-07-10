@@ -158,6 +158,7 @@ input {
         font-size: 2rem;
     color: #fff;
     letter-spacing: 3px;
+	  transition: all .3s;
   }
     .nav-item a:hover {
   letter-spacing:6px;
