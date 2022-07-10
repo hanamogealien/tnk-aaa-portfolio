@@ -364,6 +364,13 @@ padding: 0 2rem;
   #main #top {
     height: 100vh;
 }
+	#main #work h3{ 
+    width:500px;
+    margin: 5vh auto;
+    text-align: center;
+    background: #bfb197;
+    padding: 0;
+    line-height:3;}
   #main #work .work_list{width: 500px;}
   #main #work .work_list li{width: 250px;}
   #main #work .work_list li a::after{    left: 110px;
@@ -381,7 +388,10 @@ margin: 0 2.5vw;
   height: 50vh;
 }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{height:40vh;}
-  #main #about nav .career_ul {
+ #main #about {
+    text-align: center;
+}
+	#main #about nav .career_ul {
     display: flex;
     height: 25vh;
     background: #fff;
@@ -401,5 +411,16 @@ margin: 0 2.5vw;
     padding-right: 5vw;}
   #main #about nav .skill_ul{background: #000;
     padding: 5%;}
+	#main #about h3 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 10vw;
+    background: none;
+    padding: 0;
+    font-weight: 300;
+    color: #000;
+    border-bottom: 1px solid;
+}
   
 }
