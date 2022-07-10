@@ -377,7 +377,7 @@ width: 40vw;
     height:37vh;
 }
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{
-margin-right: 5rem;
+margin: 0 2.5vw;
   height: 50vh;
 }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{height:40vh;}
