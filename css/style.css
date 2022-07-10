@@ -304,6 +304,13 @@ padding: 0 2rem;
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{height: 35rem;}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{object-position: top;}
+#main #about{}
+#main #about nav{}
+#main #about nav ul{}
+#main #about nav ul li{}
+#main #about nav .career_ul{}
+#main #about nav .career_li_img{}
+#main #about nav .career_li_img img{}
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
