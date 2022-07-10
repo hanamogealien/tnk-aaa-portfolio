@@ -272,8 +272,6 @@ display: flex;
 #main #work .web_list_nav .web_list_ul .web_list_li a{
     width: 100%;
 display: inline-block;
-      height: 12rem;
-    border-radius: 6rem;
 }
 #main #work .web_list_nav .web_list_ul .web_list_li a img{object-fit: cover;}
 .scr{}
