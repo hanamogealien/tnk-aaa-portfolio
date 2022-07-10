@@ -276,6 +276,7 @@ display: inline-block;
 }
 #main #work .web_list_nav .web_list_ul .web_list_li a{
     border-bottom: 1px solid;
+      padding-bottom: 2vh;
 }
 #main #work a img{object-fit: cover;
     width: 100%;
@@ -290,14 +291,14 @@ padding: 0 2rem;
     margin-left: 2vw;
     font-weight: 100;
 }
-#main #work .web_list_nav .web_list_ul .web_list_li a p{font-size: 1.4rem;
+#main #work a p{font-size: 1.4rem;
     line-height: 1.5;}
 .scr{}
 #main #work .dtp_list_nav{}
 #main #work .dtp_list_nav .dtp_list_ul{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li{}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a{}
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{object-position: top;}
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
