@@ -274,6 +274,8 @@ display: flex;
 display: inline-block;
 }
 #main #work .web_list_nav .web_list_ul .web_list_li a img{object-fit: cover;}
+#main #work .web_list_nav .web_list_ul .web_list_li a h4{}
+#main #work .web_list_nav .web_list_ul .web_list_li a p{}
 .scr{}
 #main #work .dtp_list_nav{}
 #main #work .dtp_list_nav .dtp_list_ul{}
