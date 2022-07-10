@@ -258,7 +258,6 @@ margin: 0 auto;
     background:linear-gradient(289deg, #bfb197, #40341f);
     background-size: 400% 400%;
     -webkit-animation: AnimationName 44s ease infinite;
-    -moz-animation: AnimationName 44s ease infinite;
     animation: AnimationName 44s ease infinite;
     padding: 2vh 3vw 0 0;
     font-weight: 300;}
@@ -349,9 +348,23 @@ padding: 0 2rem;
     width: 50vw;
     margin: 5vh 0 5vh auto;
     text-align: left;
-    background: #bfb197;
+    background: linear-gradient(53deg, #bfb197, #caa663);
+    background-size: 400% 400%;
     padding: 2vh 0 0 3vw;
-    font-weight: 300;}
+    font-weight: 300;
+-webkit-animation: AnimationNameh3 44s ease infinite;
+    animation: AnimationNameh3 44s ease infinite;
+}
+@-webkit-keyframes AnimationNameh3 {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@keyframes AnimationNameh3 {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
 #main #about nav{padding: 0 5%;
     text-align: center;}
 #main #about nav ul{padding: 0 5%;}
