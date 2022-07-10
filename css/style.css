@@ -165,7 +165,7 @@ input {
     visibility: visible;
   }
 #main{}
-#main #top{height: 50vh;}
+#main #top{height:100vh;}
 #main #top .top-container{position: relative;top: 25%;}
 #main #top .top-container .top-bg{  width:35vh;
   height: 35vh;
