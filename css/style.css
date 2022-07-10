@@ -230,15 +230,15 @@ margin: 0 auto;
     font-size: 2rem;
   position: relative;
 }
-#main #work .work_list li a:hover{color:#989898;}
+#main #work .work_list li a:hover{color:#bfb197;}
 #main #work .work_list li a::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 40%;
     width:5vw;
     height:2px;
-    background:#989898;
+    background:#bfb197;
     transition: all .3s;
     transform: scale(0, 1);
     transform-origin: center top;
@@ -246,14 +246,17 @@ margin: 0 auto;
 #main #work .work_list li a:hover::after {
     transform: scale(1, 1);
 }
-#main #work h3{    font-size: 2rem;
+#main #work h3{
+    font-size: 2rem;
     letter-spacing: 3px;
     display: inline-block;
     width: 50vw;
     margin: 5vh 0;
-    text-align: center;
-    line-height: 2;
-    background: #bfb197;}
+    text-align: right;
+    background: #bfb197;
+    padding: 2vh 3vw 0 0;
+    font-weight: 300;
+    color: #fff;}
 #main #work .web_list_nav{padding: 0 5%;
     width: 100vw;
     box-sizing: border-box;}
