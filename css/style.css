@@ -280,7 +280,7 @@ display: flex;
     width: 90vw;
 }
 #main #work .web_list_nav .web_list_ul .web_list_li{
-    margin-bottom: 2.5vh;
+    margin-bottom:5vh;
     width: 100%;
 }
 #main #work a{
