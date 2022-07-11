@@ -322,7 +322,10 @@ input {
   width: 58vw;
   height: 58vw;
   border: 1vw solid #000;
+    
 }
+#main #work a:hover img{transform: scale(1.2);
+  transition-duration: 0.5s;}
 #main #work a h4 {
   margin: 0;
   font-size: 1.6rem;
@@ -365,10 +368,7 @@ input {
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
   height: 35rem;
 }
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a {}
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a:hover {
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
-}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a {color: #000;}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img {
   object-position: top;
 }
@@ -381,12 +381,12 @@ input {
   width: 50vw;
   position: relative;
   top: 1.5vh;
-  border-radius: 1rem 0 1rem 0;
+  border-radius:0 1rem 0 1rem;
   margin: 5vh auto 0;
   text-align: center;
 }
 #main #about h3:last-of-type {
-  border-radius: 0 1rem 0 1rem;
+  border-radius:1rem 0 1rem 0;
 }
 #main #about nav {
   text-align: center;
