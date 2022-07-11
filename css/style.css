@@ -499,7 +499,7 @@ input {
     height: 300px;
     border: 4px solid #000;
     }
-  #main #work nav{    padding: 10vh 5%;}
+  #main #work .web_list_nav{padding: 10vh 5%;}
     #main #work .web_list_nav .web_list_ul{
         width: 1025px;
     margin: 0 auto;}
