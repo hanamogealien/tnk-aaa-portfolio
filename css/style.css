@@ -472,7 +472,7 @@ input {
   .pc {
     display: block;
   }
-  html {}
+  html {font-size: 12px;}
   boby {}
   #main #top {
     height: 100vh;
