@@ -257,6 +257,7 @@ input {
   width: 100%;
   font-size: 2rem;
   position: relative;
+  padding-bottom: 0.5rem;
 }
 #main #work .work_list li a:hover {
   color: #bfb197;
@@ -265,8 +266,8 @@ input {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 40%;
-  width: 5vw;
+  left: 8vw;
+  width: 4vw;
   height: 2px;
   background: #bfb197;
   transition: all .3s;
@@ -282,10 +283,11 @@ input {
   background: #000;
   width: 50vw;
   position: relative;
-  top: 1.5vh;
+  top: 2vh;
   border-radius: 0 1rem 0 1rem;
   margin: 5vh auto 0;
   text-align: center;
+      line-height: 2;
 }
 #main #work .web_list_nav {
   padding: 5vh 5%;
