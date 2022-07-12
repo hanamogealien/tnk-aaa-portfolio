@@ -366,7 +366,7 @@ input {
   margin: 0 auto;
 }
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
-  height: 35rem;
+  height: calc(58vw + 11rem);
 }
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a {color: #000;}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img {
