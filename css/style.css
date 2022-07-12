@@ -46,6 +46,7 @@ h2 {
 }
 p {
   margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 button {
   background: none;
@@ -328,6 +329,7 @@ input {
   margin: 0;
   font-size: 1.6rem;
   line-height: 2;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 #main #work .web_list_nav .web_list_ul .web_list_li a h4 span {
   background: #000;
