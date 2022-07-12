@@ -320,8 +320,10 @@ input {
   border: 1vw solid #000;
     
 }
-#main #work a:hover img{transform: scale(1.2);
-  transition-duration: 0.5s;}
+#main #work a:hover img{    transform: scale(1.05);
+    transition-duration: 0.5s;
+    border: none;
+    filter: blur(2px);}
 #main #work a h4 {
   margin: 0;
   font-size: 1.6rem;
@@ -446,20 +448,19 @@ input {
     height: auto;
     border: 4px solid #000;
     }
-  #main #work .web_list_nav{    padding: 5vh 10vw;
+  #main #work .web_list_nav{padding: 10vh 10vw;
 }
-    #main #work .web_list_nav .web_list_ul{    width: 80vw;
+    #main #work .web_list_nav .web_list_ul{width: 80vw;
     margin: 0;}
   #main #work .web_list_nav .web_list_ul .web_list_li {
     width: 80vw;
     margin: 0 auto;
   }
-  #main #work .dtp_list_nav{padding: 5vh 5%;}
+  #main #work .dtp_list_nav{padding:10vh 5%;}
   #main #work .dtp_list_nav .dtp_list_ul{
     width: 80vw;}
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
     margin: 0 2vw;
-    height: 45vh;
   }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{    width: 35vw;height: 35vw;
     margin: 0 auto;}
