@@ -442,9 +442,6 @@ input {
   }
   html {}
   body {}
-  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
-    margin-right: 1rem;
-  }
       #main #work a img{
          width: 80vw;
     height: auto;
@@ -463,8 +460,9 @@ input {
     width: 80vw;}
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
     margin: 0 2vw;
+        height: 50vh;
   }
-  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{    width: 35vw;height: 35vw;
+  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{    width: 35vw;height:30vh;
     margin: 0 auto;}
 }
 /*PC*/
