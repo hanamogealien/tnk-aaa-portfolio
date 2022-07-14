@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex , nofollow">
-<title>tanaka:portfolio2022</title>
+<title>tanaka:portfolio2022/work-web(case1)</title>
 <link href="https://hanamogealien.github.io/tnk-aaa-portfolio/css/reset.css" rel="stylesheet">
 <link href="https://hanamogealien.github.io/tnk-aaa-portfolio/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://hanamogealien.github.io/tnk-aaa-portfolio/js/slick/slick.css">
@@ -37,7 +37,18 @@
 <main id="workmain">
         <section id="workex">
             <h2>Work</h2>
-            <h3 class="webname">自社サイト</h3>
+            <h3 class="webname">自社サイト：下層ページ</h3>
+            <nav class="ex-detail">
+            <ul>
+                <li><span>工程・担当部分</span>ディレクション/写真撮影/デザイン/コピーライト/コーディング</li>
+                <li><span>制作時間</span>ワークフレーム:1時間/写真撮影：3日間/デザイン・コピーライト：6日間/コーディング：1日間</li>
+                <li><span>使用ソフト</span>Photoshop/illustrator/Wordpress/Excel/Dreamwever</li>
+                <li><span>コンセプト</span>毎年行うダイエット企画の結果発表ページです。前年度のページと色味が合わないよう意識しております。また、顔出し可能な方のドレスアップ写真を撮り、その方の年齢、ドレスの雰囲気に合ったデザインを目指しました。</li>
+                </ul>
+            </nav>
+            <div class="sampleimg"><source srcset="https://hanamogealien.github.io/tnk-aaa-portfolio/img/beautycontest_24th_sp.png" media="(max-width:599px)">
+  <img src="https://hanamogealien.github.io/tnk-aaa-portfolio/img/beautycontest_24th.png" alt=""></div>
+            <div class="url"><p>URL</p><a href="https://www.style-japan.co.jp/beforeafter/beautycontest/24th/">https://www.style-japan.co.jp/beforeafter/beautycontest/24th/</a></div>
         </section>
 </main>
 <footer id="footer">
@@ -54,54 +65,7 @@ $('.burger-btn').on('click',function(){//.btn_triggerをクリックすると
   $('body').toggleClass('noscroll');//bodyにnoscrollクラスを付与(スクロールを固定)
  });
     </script>
-        <script>
-    window.addEventListener("load", function() {
-const target = document.querySelectorAll('.scr')
-const targetArray = Array.prototype.slice.call(target);
-const options = {
-    root: null,
-    rootMargin: '0px 0px',
-    threshold: 0.2
-};
-
-const observer = new IntersectionObserver(callback, options)
-targetArray.forEach(function (tgt) {
-  observer.observe(tgt)
-});
-
-function callback(entries) {
-  entries.forEach(function(entry, i) {
-    const target = entry.target;
-    if (entry.isIntersecting && !target.classList.contains('is-active')) {
-      const delay = i * 100
-      setTimeout(function(){
-        target.classList.add('is-active');
-      },delay);
-    }
-  });
-};
-});
-    </script>
-        <script>
-    $(function () {
-  $(".dtp_list_ul").slick({
-    arrows: false,
-    autoplay: true,
-    adaptiveHeight: true,
-    autoplaySpeed:4000,
-    dots: true,
-    slidesToShow: 2,
-    responsive: [
-      {
-        breakpoint: 600, 
-        settings: {
-        slidesToShow: 1,
-        },
-      },
-    ],
-  });
-});
-    </script>
         </div>
 </body>
 </html>
+
