@@ -475,9 +475,27 @@ margin: 0;
 #workmain #workex .sampleimg .box-scroll{    height: 50vh;
     overflow: auto;border: 1px solid #fff;}
 #workmain #workex .sampleimg img{}
-#workmain #workex .url{}
-#workmain #workex .url p{}
-#workmain #workex .url a{}
+#workmain #workex .url{    padding: 5vh 5%;
+    width: 100vw;
+    box-sizing: border-box;
+    border-radius: 0 14vw 0 14vw;
+    background: #000;
+    margin: 5vh 0 0;
+text-align: center;
+}
+#workmain #workex .url p{    
+    background: #fff;
+    color: #000;
+    width: 20vw;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    left: 2px;
+    border-radius: 2rem;
+    line-height: 2;}
+#workmain #workex .url a{    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    line-height: 4;}
 
 /*タブレット*/
 @media screen and (min-width: 600px) {
