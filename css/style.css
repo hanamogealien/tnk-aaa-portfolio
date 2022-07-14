@@ -287,7 +287,7 @@ input {
   border-radius: 0 1rem 0 1rem;
   margin: 5vh auto 0;
   text-align: center;
-      line-height: 2;
+  line-height: 2;
 }
 #main #work .web_list_nav {
   padding: 5vh 5%;
@@ -321,12 +321,13 @@ input {
   width: 58vw;
   height: 58vw;
   border: 1vw solid #000;
-    
 }
-#main #work a:hover img{    transform: scale(1.05);
-    transition-duration: 0.5s;
-    border: none;
-    filter: blur(2px);}
+#main #work a:hover img {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  border: none;
+  filter: blur(2px);
+}
 #main #work a h4 {
   margin: 0;
   font-size: 1.6rem;
@@ -370,7 +371,9 @@ input {
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
   height: calc(58vw + 11rem);
 }
-#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a {color: #000;}
+#main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a {
+  color: #000;
+}
 #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img {
   object-position: top;
 }
@@ -383,12 +386,12 @@ input {
   width: 50vw;
   position: relative;
   top: 1.5vh;
-  border-radius:0 1rem 0 1rem;
+  border-radius: 0 1rem 0 1rem;
   margin: 5vh auto 0;
   text-align: center;
 }
 #main #about h3:last-of-type {
-  border-radius:1rem 0 1rem 0;
+  border-radius: 1rem 0 1rem 0;
 }
 #main #about nav {
   text-align: center;
@@ -431,6 +434,20 @@ input {
   font-size: 1.6rem;
   line-height: 4rem;
 }
+#workmain{}
+#workmain #workex{}
+#workmain #workex h2{}
+#workmain #workex .webname{}
+#workmain #workex .ex-detail{}
+#workmain #workex .ex-detail ul{}
+#workmain #workex .ex-detail ul li{}
+#workmain #workex .ex-detail ul li span{}
+#workmain #workex .sampleimg{}
+#workmain #workex .sampleimg img{}
+#workmain #workex .url{}
+#workmain #workex .url p{}
+#workmain #workex .url a{}
+
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
@@ -444,28 +461,37 @@ input {
   }
   html {}
   body {}
-      #main #work a img{
-         width: 80vw;
+  #main #work a img {
+    width: 80vw;
     height: auto;
     border: 4px solid #000;
-    }
-  #main #work .web_list_nav{padding: 10vh 10vw;
-}
-    #main #work .web_list_nav .web_list_ul{width: 80vw;
-    margin: 0;}
+  }
+  #main #work .web_list_nav {
+    padding: 10vh 10vw;
+  }
+  #main #work .web_list_nav .web_list_ul {
+    width: 80vw;
+    margin: 0;
+  }
   #main #work .web_list_nav .web_list_ul .web_list_li {
     width: 80vw;
     margin: 0 auto;
   }
-  #main #work .dtp_list_nav{padding:10vh 5%;}
-  #main #work .dtp_list_nav .dtp_list_ul{
-    width: 80vw;}
+  #main #work .dtp_list_nav {
+    padding: 10vh 5%;
+  }
+  #main #work .dtp_list_nav .dtp_list_ul {
+    width: 80vw;
+  }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
     margin: 0 2vw;
-        height: 45vh;
+    height: 45vh;
   }
-  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img{    width: 35vw;height:30vh;
-    margin: 0 auto;}
+  #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img {
+    width: 35vw;
+    height: 30vh;
+    margin: 0 auto;
+  }
 }
 /*PC*/
 @media screen and (min-width: 1025px) {
@@ -478,7 +504,9 @@ input {
   .pc {
     display: block;
   }
-  html {font-size: 12px;}
+  html {
+    font-size: 12px;
+  }
   boby {}
   #main #top {
     height: 100vh;
@@ -499,31 +527,36 @@ input {
     left: 110px;
     width: 30px;
   }
-    #main #work a img{
-            object-fit: cover;
-        width: 300px;
+  #main #work a img {
+    object-fit: cover;
+    width: 300px;
     height: 300px;
     border: 4px solid #000;
-    }
-  #main #work .web_list_nav{padding: 10vh 5%;}
-    #main #work .web_list_nav .web_list_ul{
-        width: 1025px;
-    margin: 0 auto;}
+  }
+  #main #work .web_list_nav {
+    padding: 10vh 5%;
+  }
+  #main #work .web_list_nav .web_list_ul {
+    width: 1025px;
+    margin: 0 auto;
+  }
   #main #work .web_list_nav .web_list_ul .web_list_li {
-   width: 300px;
-    margin: 0 20px; 
+    width: 300px;
+    margin: 0 20px;
   }
   #main #work .web_list_nav .web_list_ul .web_list_li a {
-        padding-bottom: 0;
+    padding-bottom: 0;
   }
-  #main #work .dtp_list_nav{padding: 10vh 5%;}
+  #main #work .dtp_list_nav {
+    padding: 10vh 5%;
+  }
   #main #work .dtp_list_nav .dtp_list_ul {
     width: 1025px;
     margin: 0 auto;
-}
+  }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li {
-        margin: 0 30px;
-    height:50rem;
+    margin: 0 30px;
+    height: 50rem;
   }
   #main #work .dtp_list_nav .dtp_list_ul .dtp_list_li a img {
     width: 450px;
@@ -532,14 +565,14 @@ input {
   #main #about {
     text-align: center;
   }
-  #main #about nav{
+  #main #about nav {
     padding: 10vh 5%;
     width: 1000px;
     margin: 0 auto;
   }
   #main #about nav .career_ul {
     display: flex;
-        padding: 0;
+    padding: 0;
   }
   #main #about nav .career_ul .career_li_img img {
     height: 300px;
@@ -549,12 +582,14 @@ input {
     border: 4px solid;
   }
   #main #about nav .career_ul .career_li {
-margin: auto;
+    margin: auto;
     text-align: left;
     border-bottom: none;
     padding: 0 0 0 20px;
   }
-  #main #about nav ul li{text-align: center;}
+  #main #about nav ul li {
+    text-align: center;
+  }
   #main #about h3 {
     width: 250px;
     padding: 0;
