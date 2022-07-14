@@ -475,7 +475,8 @@ margin: 0;
 #workmain #workex .sampleimg .box-scroll{    height: 50vh;
     overflow: auto;border:1vw solid #fff;    border-radius: 14vw 0 14vw 0;}
 #workmain #workex .sampleimg img{}
-#workmain #workex .url{    padding: 5vh 5%;
+#workmain #workex .url{    
+    padding: 5vh 5%;
     width: 100vw;
     box-sizing: border-box;
     border-radius: 0 14vw 0 14vw;
@@ -492,11 +493,17 @@ text-align: center;
     left: 2px;
     border-radius: 2rem;
     line-height: 2;}
-#workmain #workex .url a{    font-size: 2.5vw;
-    color: #fff;
+#workmain #workex .url a{    font-size: 1.4rem;
+    color: #000;
     text-align: center;
-    line-height: 4;}
-
+    /* line-height: 1.5; */
+    margin: 2rem;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0 7vw 0 7vw;
+      transition:0.5s;
+}
+#workmain #workex .url a:hover{background:#bfb197;}
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
@@ -645,4 +652,8 @@ text-align: center;
     line-height: 3;
     top: 3vh;
   }
+  #workmain #workex .ex-detail{padding: 10vh 10vw;}
+  #workmain #workex .sampleimg{padding: 10vh 10vw;}
+  #workmain #workex .url p{width: 10vw;}
+  
 }
