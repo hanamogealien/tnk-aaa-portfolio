@@ -435,14 +435,45 @@ input {
   line-height: 4rem;
 }
 #workmain{}
-#workmain #workex{}
-#workmain #workex h2{}
-#workmain #workex .webname{}
-#workmain #workex .ex-detail{}
-#workmain #workex .ex-detail ul{}
-#workmain #workex .ex-detail ul li{}
-#workmain #workex .ex-detail ul li span{}
-#workmain #workex .sampleimg{}
+#workmain #workex{padding-top: 10vh;}
+#workmain #workex h2{    font-size: 2.4rem;
+    text-align: center;
+    letter-spacing: 3px;}
+#workmain #workex .webname{    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+margin: 0;
+}
+#workmain #workex .webname::after{    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 5%;
+    height: 2px;
+    background: #fff;
+    transform-origin: center top;}
+#workmain #workex .ex-detail{    padding: 5vh 5%;
+    width: 100vw;
+    box-sizing: border-box;
+    border-radius: 0 14vw 0 14vw;
+    background: #000;
+    margin: 5vh 0;}
+#workmain #workex .ex-detail ul{padding: 0 5%;}
+#workmain #workex .ex-detail ul li{
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.5;}
+#workmain #workex .ex-detail ul li span{    background: #fff;
+    color: #000;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;}
+#workmain #workex .sampleimg{    background: #000;
+    border-radius: 14vw 0 14vw 0;
+    padding: 5vh 5%;}
+#workmain #workex .sampleimg .box-scroll{    height: 50vh;
+    overflow: auto;border: 1px solid #fff;}
 #workmain #workex .sampleimg img{}
 #workmain #workex .url{}
 #workmain #workex .url p{}
