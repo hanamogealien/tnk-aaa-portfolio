@@ -449,8 +449,8 @@ margin: 0;
 #workmain #workex .webname::after{    content: '';
     position: absolute;
     bottom: 0;
-    left: 45%;
-    width: 5%;
+    left:45%;
+    width:10vw;
     height: 2px;
     background: #fff;
     transform-origin: center top;}
@@ -464,7 +464,7 @@ margin: 0;
 #workmain #workex .ex-detail ul li{
     text-align: left;
     font-size: 1.4rem;
-    line-height: 1.5;}
+    line-height: 2.5;}
 #workmain #workex .ex-detail ul li span{    background: #fff;
     color: #000;
     padding: 0.5rem 2rem;
@@ -473,7 +473,7 @@ margin: 0;
     border-radius: 14vw 0 14vw 0;
     padding: 5vh 5%;}
 #workmain #workex .sampleimg .box-scroll{    height: 50vh;
-    overflow: auto;border: 1px solid #fff;}
+    overflow: auto;border:1vw solid #fff;    border-radius: 14vw 0 14vw 0;}
 #workmain #workex .sampleimg img{}
 #workmain #workex .url{    padding: 5vh 5%;
     width: 100vw;
