@@ -195,8 +195,7 @@ input {
   width: 35vh;
   height: 35vh;
   background-color: #f09819;
-  animation: Topbgchangecolor 20s linear infinite;
-  animation: Topbgrotate 30s ease 0s infinite;
+  animation: Topbgchangecolor 20s linear infinite,Topbgrotate 30s ease 0s infinite;
   margin: 0 auto;
 }
 @keyframes Topbgchangecolor {
