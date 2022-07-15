@@ -479,7 +479,7 @@ margin: 0;
 }
 #workmain #workex .sampleimg{    background: #000;
     border-radius:0 14vw 0 14vw;
-    padding: 5vh 5%;}
+    padding: 5vh 10%;}
 #workmain #workex .sampleimg .box-scroll{    height: 50vh;
     overflow: auto;border:1vw solid #fff;}
 #workmain #workex .sampleimg img{}
@@ -504,14 +504,14 @@ text-align: center;
 #workmain #workex .url a{    font-size: 1.4rem;
     color: #000;
     text-align: center;
-    margin: 2rem;
+    margin: 2rem auto;
     background: #fff;
     padding: 1rem 2rem;
     border-radius: 7vw 0 7vw 0;
       transition:0.5s;
 }
 #workmain #workex .url a:hover{background:#bfb197;}
-#workmain #workex .dtpimg{padding: 5vh 5%;border-radius:14vw 0 14vw 0;}
+#workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
 #workmain #workex .dtpimg img{border:1vw solid #000;}
 /*タブレット*/
 @media screen and (min-width: 600px) {
@@ -667,7 +667,15 @@ text-align: center;
   #workmain #workex .url p{width: 10vw;}
   #workmain #workex .sampleimg .box-scroll{border: 4px solid;
     height: 60vh;}
-  #workmain #workex .dtpimg{padding: 10vh 10vw;}
-#workmain #workex .dtpimg img{border:4px solid;}
+  #workmain #workex .dtpimg{    padding: 10vh 0;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: center;
+    width: 60vw;}
+#workmain #workex .dtpimg img{    border: 4px solid;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;}
   
 }
