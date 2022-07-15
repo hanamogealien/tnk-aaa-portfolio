@@ -662,7 +662,10 @@ text-align: center;
     line-height: 3;
     top: 3vh;
   }
-  #workmain #workex .ex-detail{padding: 10vh 10vw;}
+  #workmain #workex .ex-detail{padding: 10vh 10vw;width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}}
   #workmain #workex .sampleimg{padding: 10vh 10vw;}
   #workmain #workex .url{margin: 5vh auto 0;width: 60vw;}
   #workmain #workex .url p{width: 10vw;}
