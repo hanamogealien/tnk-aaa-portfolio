@@ -513,10 +513,26 @@ text-align: center;
 #workmain #workex .url a:hover{background:#bfb197;}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
 #workmain #workex .dtpimg img{border:1px solid #000;}
-#footer .work-page{}
+#footer .work-page{    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;}
 #footer .work-page ul{}
 #footer .work-page ul li{}
-#footer .work-page ul li a{}
+#footer .work-page ul li a{color: #fff;font-size: 2rem;position: relative;padding-bottom: 0.5rem;}
+#footer .work-page ul li a:hover {color: #bfb197;}
+#footer .work-page ul li a:hover::after {transform: scale(1, 1);}
+#footer .work-page ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 8vw;
+    width: 4vw;
+    height: 2px;
+    background: #bfb197;
+    transition: all .3s;
+    transform: scale(0, 1);
+    transform-origin: center top;
+}
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
