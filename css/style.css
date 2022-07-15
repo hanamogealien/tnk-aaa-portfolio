@@ -470,6 +470,13 @@ margin: 0;
     color: #000;
     padding: 0.5rem 2rem;
     border-radius: 2rem;}
+#workmain #workex .dtp-ex-detail{
+    border-radius:0 14vw 0 14vw;
+    background: #fff;}
+#workmain #workex .dtp-ex-detail ul li span{background: #000;
+    color: #fff;}
+#workmain #workex .dtp-ex-detail ul li{color: #000;
+}
 #workmain #workex .sampleimg{    background: #000;
     border-radius:0 14vw 0 14vw;
     padding: 5vh 5%;}
