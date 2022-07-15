@@ -557,6 +557,7 @@ text-align: center;
     height: 30vh;
     margin: 0 auto;
   }
+  #workmain #workex .sampleimg{padding: 5vh 10%;}
 }
 /*PC*/
 @media screen and (min-width: 1025px) {
@@ -664,6 +665,7 @@ text-align: center;
   }
   #workmain #workex .ex-detail{padding: 10vh 10vw;}
   #workmain #workex .sampleimg{padding: 10vh 10vw;}
+  #workmain #workex .url{margin: 5vh auto 0;width: 60vw;}
   #workmain #workex .url p{width: 10vw;}
   #workmain #workex .sampleimg .box-scroll{border: 4px solid;
     height: 60vh;}
