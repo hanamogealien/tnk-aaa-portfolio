@@ -667,8 +667,9 @@ text-align: center;
     margin-right: auto;
 }}
   #workmain #workex .sampleimg{padding: 10vh 10vw;}
-  #workmain #workex .url{margin: 5vh auto 0;width: 60vw;}
+  #workmain #workex .url{margin: 5vh auto 0;width: 60vw;border-radius: 7vw 0 7vw 0;}
   #workmain #workex .url p{width: 10vw;}
+#workmain #workex .url a{border-radius: 2vw 0 2vw 0;}
   #workmain #workex .sampleimg .box-scroll{
     height: 60vh;}
   #workmain #workex .dtpimg{    padding: 10vh 0;
