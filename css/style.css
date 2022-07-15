@@ -511,7 +511,7 @@ text-align: center;
       transition:0.5s;
 }
 #workmain #workex .url a:hover{background:#bfb197;}
-#workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
+#workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;width:100vw;}
 #workmain #workex .dtpimg img{border:1px solid #000;}
 /*タブレット*/
 @media screen and (min-width: 600px) {
