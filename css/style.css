@@ -607,7 +607,7 @@ text-align: center;
     height: 300px;
   }
   #main #work .web_list_nav {
-    padding: 10vh 5%;
+    padding: 10vh 0;
   }
   #main #work .web_list_nav .web_list_ul {
     width: 1025px;
