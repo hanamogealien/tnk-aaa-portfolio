@@ -560,9 +560,6 @@ text-align: center;
 /*タブレット*/
 @media screen and (min-width: 600px) {
   .sp {
-    display: none;
-  }
-  .tab {
     display: block;
   }
   html {}
