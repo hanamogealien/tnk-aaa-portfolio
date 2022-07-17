@@ -616,8 +616,10 @@ text-align: center;
   .nav-wrapper{height: 30vh;width: 35vw;}
   .nav-list{top:95%;}
   .nav-item a{width: 50%;}
-  .burger-btn.close .bar_top{    transform: translate(-50%, 10px) rotate(45deg);}
-  .burger-btn.close .bar_bottom{    transform: translate(-50%, -16px) rotate(-45deg);}
+  .bar{transform: translateX(0);}
+  .bar_mid{transform: translate(0, -50%);}
+  .burger-btn.close .bar_top{    transform: translate(0, 10px) rotate(45deg);}
+  .burger-btn.close .bar_bottom{    transform: translate(0, -16px) rotate(-45deg);}
   #main #top {
     height: 100vh;
   }
