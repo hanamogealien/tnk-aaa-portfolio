@@ -143,10 +143,10 @@ input {
 /* 以下、ハンバーガーメニュー */
 .nav-wrapper {
   visibility: hidden;
-  height: 50vh;
+  height: 40vh;
   position: fixed;
   top: 0;
-  width: 40vw;
+  width: 45vw;
   opacity: 0;
   transition: opacity .5s;
   z-index: 2;
@@ -163,20 +163,28 @@ input {
   position: absolute;
   text-align: center;
   top: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
 }
 .nav-item {
-  line-height: 4;
+      line-height: 2.5;
+    margin: 2rem 0;
 }
 .nav-item a {
   font-size: 2rem;
   color: #fff;
   letter-spacing: 3px;
-  transition: all .3s;
+  transition: all .5s;
+  text-shadow: 2px 1px 1px #000;
+  width: 80%;
+  margin: 0 auto;
 }
 .nav-item a:hover {
-  letter-spacing: 6px;
-  color: #bfb197;
+    letter-spacing: 6px;
+    color: #000;
+    border-radius: 0 1rem 0 1rem;
+    background: linear-gradient(58deg, #e9a941, #e47134, #e47134);
+    text-shadow: none;
 }
 /* メニューオープン時 */
 .nav-wrapper.fade {
@@ -283,7 +291,11 @@ input {
   padding-bottom: 0.5rem;
 }
 #main #work .work_list li a:hover {
-  color: #bfb197;
+      background: linear-gradient(135deg, #fed878 0%, #fa505e 100%);
+    background: -webkit-linear-gradient(-45deg, #fed878 0%, #fa505e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      color: #e9a941;
 }
 #main #work .work_list li a::after {
   content: '';
@@ -292,7 +304,7 @@ input {
   left: 8vw;
   width: 4vw;
   height: 2px;
-  background: #bfb197;
+      background: linear-gradient(58deg, #e9a941, #e47134, #e47134);
   transition: all .3s;
   transform: scale(0, 1);
   transform-origin: center top;
@@ -477,7 +489,7 @@ margin: 0;
     left:45%;
     width:10vw;
     height: 2px;
-    background: #fff;
+        background: linear-gradient(58deg, #e9a941, #e47134, #e47134);
     transform-origin: center top;}
 #workmain #workex .ex-detail{    padding: 5vh 5%;
     width: 100vw;
@@ -534,7 +546,7 @@ text-align: center;
     border-radius: 7vw 0 7vw 0;
       transition:0.5s;
 }
-#workmain #workex .url a:hover{background:#bfb197;}
+#workmain #workex .url a:hover{background: linear-gradient(58deg, #e9a941, #e47134, #e47134);}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
 #workmain #workex .dtpimg img{border:1px solid #000;}
 #footer .work-page{    display: flex;
@@ -543,7 +555,11 @@ text-align: center;
 #footer .work-page ul{}
 #footer .work-page ul li{}
 #footer .work-page ul li a{color: #fff;font-size: 2rem;position: relative;padding-bottom: 0.5rem;}
-#footer .work-page ul li a:hover {color: #bfb197;}
+#footer .work-page ul li a:hover {    background: linear-gradient(135deg, #fed878 0%, #fa505e 100%);
+    background: -webkit-linear-gradient(-45deg, #fed878 0%, #fa505e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #e9a941;}
 #footer .work-page ul li a:hover::after {transform: scale(1, 1);}
 #footer .work-page ul li a::after {
     content: '';
@@ -552,10 +568,10 @@ text-align: center;
     left: 0%;
     width:100%;
     height: 2px;
-    background: #bfb197;
     transition: all .3s;
     transform: scale(0, 1);
     transform-origin: center top;
+  background: linear-gradient(135deg, #fed878 0%, #fa505e 100%);
 }
 /*タブレット*/
 @media screen and (min-width: 600px) {
