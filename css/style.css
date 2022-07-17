@@ -617,7 +617,7 @@ text-align: center;
   .nav-wrapper{height:100vh;width:15vw;}
   .nav-list{top:30%;}
   .nav-item a{width: 50%;}
-  .burger-btn{left: calc(100% - (5% + 4rem));}
+  .burger-btn{left: calc(100% - (5% + 5rem));}
   .burger-btn.close .bar_top{    transform: translate(0, 10px) rotate(45deg);}
   .burger-btn.close .bar_bottom{    transform: translate(0, -16px) rotate(-45deg);}
   #main #top {
