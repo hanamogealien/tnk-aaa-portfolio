@@ -108,14 +108,13 @@ input {
   z-index: 3;
   background-color: transparent;
   border: none;
-  left: calc(100% - (5% + 4rem));
+  left: calc(100% - (10% + 4rem));
 }
 .bar {
   background-color: #fff;
   display: block;
   height: 1px;
   position: absolute;
-  transform: translateX(-50%);
   width: 3rem;
 }
 .bar_top {
@@ -123,13 +122,13 @@ input {
 }
 .bar_mid {
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
 }
 .bar_bottom {
   bottom: 10px;
 }
 .burger-btn.close .bar_top {
-  transform: translate(-50%, 10px) rotate(45deg);
+  transform: translate(0, 10px) rotate(45deg);
   transition: transform .3s;
 }
 .burger-btn.close .bar_mid {
@@ -137,7 +136,7 @@ input {
   transition: opacity .3s;
 }
 .burger-btn.close .bar_bottom {
-  transform: translate(-50%, -8px) rotate(-45deg);
+  transform: translate(0, -8px) rotate(-45deg);
   transition: transform .3s;
 }
 /* 以下、ハンバーガーメニュー */
@@ -613,7 +612,7 @@ text-align: center;
     font-size: 12px;
   }
   boby {}
-  .nav-wrapper{height: 30vh;width: 35vw;}
+  .nav-wrapper{height:100vh;width:20vw;}
   .nav-list{top:95%;}
   .nav-item a{width: 50%;}
   .bar{transform: translateX(0);}
