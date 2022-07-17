@@ -143,7 +143,7 @@ input {
 /* 以下、ハンバーガーメニュー */
 .nav-wrapper {
   visibility: hidden;
-  height: 40vh;
+  height: 45vh;
   position: fixed;
   top: 0;
   width: 45vw;
