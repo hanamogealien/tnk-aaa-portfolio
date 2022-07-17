@@ -614,7 +614,7 @@ text-align: center;
   }
   boby {}
   .nav-wrapper{height: 30vh;width: 35vw;}
-  .nav-list{top:85%;}
+  .nav-list{top:95%;}
   .nav-item a{width: 50%;}
   .burger-btn.close .bar_top{    transform: translate(-50%, 10px) rotate(45deg);}
   .burger-btn.close .bar_bottom{    transform: translate(-50%, -16px) rotate(-45deg);}
