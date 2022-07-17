@@ -601,6 +601,8 @@ text-align: center;
   #main #top {
     height: 100vh;
   }
+  #main #top .top-container{top: 20%;}
+  #main #top .top-container .top-bg{width: 60vh;height: 60vh;}
   #main #work h3 {
     width: 250px;
     padding: 0;
