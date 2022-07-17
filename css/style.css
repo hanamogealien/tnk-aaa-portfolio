@@ -145,7 +145,7 @@ input {
   height: 45vh;
   position: fixed;
   top: 0;
-  width: 45vw;
+  width: 30vw;
   opacity: 0;
   transition: opacity .5s;
   z-index: 2;
@@ -155,6 +155,8 @@ input {
   height: 100%;
   width: 100%;
   z-index: 2;
+      background: #000;
+  border-radius: 0 0 0 14vw;
 }
 .nav-list {
   display: block;
@@ -613,7 +615,7 @@ text-align: center;
   }
   boby {}
   .nav-wrapper{height:100vh;width:20vw;}
-  .nav-list{top:95%;}
+  .nav-list{top:30%;}
   .nav-item a{width: 50%;}
   .burger-btn{left: calc(100% - (5% + 4rem));}
   .burger-btn.close .bar_top{    transform: translate(0, 10px) rotate(45deg);}
