@@ -536,6 +536,10 @@ text-align: center;
 #workmain #workex .url a:hover{background: linear-gradient(58deg, #e9a941, #e47134, #e47134);}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
 #workmain #workex .dtpimg img{border:1px solid #000;}
+#workmain #workex ill_list_nav{}
+#workmain #workex ill_list_nav .ill_list_ul{}
+#workmain #workex ill_list_nav .ill_list_ul .ill_list_li{}
+#workmain #workex ill_list_nav .ill_list_ul .ill_list_li img{}
 #footer .work-page{    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;}
