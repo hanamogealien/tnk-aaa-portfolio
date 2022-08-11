@@ -536,10 +536,10 @@ text-align: center;
 #workmain #workex .url a:hover{background: linear-gradient(58deg, #e9a941, #e47134, #e47134);}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
 #workmain #workex .dtpimg img{border:1px solid #000;}
-#workmain #workex ill_list_nav{padding: 5vh 5%;width: 100vw;box-sizing: border-box;border-radius: 0 14vw 0 14vw;background: #000;margin: 5vh 0;}
-#workmain #workex ill_list_nav .ill_list_ul{display: flex;flex-wrap: wrap;width: 60vw;margin: 0 auto;}
-#workmain #workex ill_list_nav .ill_list_ul .ill_list_li{margin-bottom: 5vh;width: 100%;}
-#workmain #workex ill_list_nav .ill_list_ul .ill_list_li img{object-fit: cover;width: 58vw;height: 58vw;border: 1px solid #fff;}
+#workmain #workex .ill_list_nav{padding: 5vh 5%;width: 100vw;box-sizing: border-box;border-radius: 0 14vw 0 14vw;background: #000;margin: 5vh 0;}
+#workmain #workex .ill_list_nav .ill_list_ul{display: flex;flex-wrap: wrap;width: 60vw;margin: 0 auto;}
+#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li{margin-bottom: 5vh;width: 100%;}
+#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li img{object-fit: cover;width: 58vw;height: 58vw;border: 1px solid #fff;}
 #footer .work-page{    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;}
