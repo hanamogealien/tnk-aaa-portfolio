@@ -603,11 +603,12 @@ text-align: center;
   }
   #workmain #workex .sampleimg{padding: 5vh 10%;}
     #workmain #workex .ill_list_nav{padding: 10vh 10vw;}
-#workmain #workex .ill_list_nav .ill_list_ul{    width: 80vw;
+#workmain #workex .ill_list_nav .ill_list_ul{    width: 50vw;
     margin: 0;}
-#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li{width: 80vw;
-    margin: 0 auto;}
-#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li img{}
+#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li{width: 50vw;
+    margin: 0 auto 20px;}
+#workmain #workex .ill_list_nav .ill_list_ul .ill_list_li img{    width: 50vw;
+    height: 50vw;}
 }
 /*PC*/
 @media screen and (min-width: 1025px) {
@@ -747,7 +748,7 @@ text-align: center;
 #workmain #workex .ill_list_nav .ill_list_ul{    width: 1025px;
     margin: 0 auto;}
 #workmain #workex .ill_list_nav .ill_list_ul .ill_list_li{    width: 300px;
-    margin: 0 20px;}
+    margin: 0 20px 20px;}
 #workmain #workex .ill_list_nav .ill_list_ul .ill_list_li img{object-fit: cover;
     width: 300px;
     height: 300px;}
