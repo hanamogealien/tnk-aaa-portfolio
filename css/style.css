@@ -532,6 +532,9 @@ text-align: center;
     padding: 1rem 2rem;
     border-radius: 7vw 0 7vw 0;
       transition:0.5s;
+      width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 #workmain #workex .url a:hover{background: linear-gradient(58deg, #e9a941, #e47134, #e47134);}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
