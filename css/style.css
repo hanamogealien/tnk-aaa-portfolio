@@ -535,6 +535,7 @@ text-align: center;
       width: 100%;
     display: inline-block;
     box-sizing: border-box;
+      word-break: break-all;
 }
 #workmain #workex .url a:hover{background: linear-gradient(58deg, #e9a941, #e47134, #e47134);}
 #workmain #workex .dtpimg{padding: 5vh 10%;border-radius:14vw 0 14vw 0;background: #fff;}
